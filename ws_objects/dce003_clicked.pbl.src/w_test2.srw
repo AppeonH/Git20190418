@@ -1,12 +1,12 @@
-﻿$PBExportHeader$w_test.srw
+﻿$PBExportHeader$w_test2.srw
 forward
-global type w_test from window
+global type w_test2 from window
 end type
-type cb_1 from commandbutton within w_test
+type cb_1 from commandbutton within w_test2
 end type
 end forward
 
-global type w_test from window
+global type w_test2 from window
 integer width = 3378
 integer height = 1408
 boolean titlebar = true
@@ -20,20 +20,20 @@ string icon = "AppIcon!"
 boolean center = true
 cb_1 cb_1
 end type
-global w_test w_test
+global w_test2 w_test2
 
-on w_test.create
+on w_test2.create
 this.cb_1=create cb_1
 this.Control[]={this.cb_1}
 end on
 
-on w_test.destroy
+on w_test2.destroy
 destroy(this.cb_1)
 end on
 
-type cb_1 from commandbutton within w_test
-integer x = 480
-integer y = 260
+type cb_1 from commandbutton within w_test2
+integer x = 535
+integer y = 400
 integer width = 457
 integer height = 128
 integer taborder = 10
@@ -43,10 +43,6 @@ fontcharset fontcharset = ansi!
 fontpitch fontpitch = variable!
 fontfamily fontfamily = swiss!
 string facename = "Arial"
-//<<<<<<< HEAD
-string text = "17git2"
-//=======
-string text = "13git"
-//>>>>>>> master
+string text = "none"
 end type
 

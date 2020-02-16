@@ -1,6 +1,7 @@
 Save Format v3.0(19990112)
 @begin Targets
  0 "dce003_clicked.pbt";
+ 1 "..\\..\\\u4e34\u65f6\\\u6d4b\u8bd5 svn\\\u6848\u4f8b1\\test.pbt";
 @end;
 DefaultTarget "dce003_clicked.pbt";
 DefaultRemoteTarget "dce003_clicked.pbt";
